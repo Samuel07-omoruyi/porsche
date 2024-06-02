@@ -1,0 +1,22 @@
+.mySlides {display: none;}
+.fade {
+  animation: fade 5s infinite;
+}
+
+@keyframes fade {
+  0%, 100% {opacity: 0}
+  20%, 80% {opacity: 1}
+}
+.showcase {
+    position: relative;
+  }
+  
+  .bg-image {
+    opacity: 0.003; /* adjust the value to change the opacity */
+  }
+  
+  .bg-img-title {
+    position: absolute;
+    top: 420px;
+    left: 20px;
+  }
